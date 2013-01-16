@@ -1,5 +1,7 @@
 # Make use of named directories.
 
+## FEATURE
+
 `~/` gets you to your home directory.
 `~user` gets you to `user` home directory.
 
@@ -19,8 +21,6 @@ instead of
 
     /path/to/dir$
 
-*NOTICE*
-
 You should really be puzzled by the presence of `: ~dir` in the
 uppermost snippet of code. That line is needed because the shell
 will not register the name of the directory until you force it to
@@ -31,3 +31,8 @@ and that makes everything work.
 But it is generally a better idea to set the option `AUTO_NAME_DIRS`;
 with it, every parameter created which referes to a directory will
 automarically be turned into a name.
+
+## USAGE
+
+It seems that symbolic links do the very same thing and do not clog
+your `.zshrc`.
