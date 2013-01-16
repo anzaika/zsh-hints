@@ -13,7 +13,7 @@ And this is not just a replacement for a function named dir that issues
 a `cd /path/to/dir` command. If you have `pwd` incorporated in your
 shell prompt, then after `~dir` your prompt is going to look like:
 
-    ~/dir$
+    ~dir$
 
 instead of
 
